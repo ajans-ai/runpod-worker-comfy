@@ -11,6 +11,8 @@ pbcopy < ~/.ssh/id_ed25519.pub
 # For Linux, use:
 # cat ~/.ssh/id_ed25519.pub
 
+# Release notes
+
 # Add key to GitHub:
 # 1. Go to GitHub Settings -> SSH and GPG keys
 # 2. Click "New SSH key"
@@ -20,3 +22,4 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 # Test connection
 ssh -T git@github.com
+
